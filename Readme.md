@@ -39,7 +39,13 @@ npm i react-dom react-native-web@~0.19.6 @expo/webpack-config@^19.0.0
 npm i -D @types/react-dom prettier eslint eslint-config-universe @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
-4. Create a `.prettierrc` file
+4. Run `npx expo install --fix` to fix problems with uncompatible versions between dependencies
+
+```bash
+npx expo install --fix
+```
+
+5. Create a `.prettierrc` file
 
 ```json
 {
@@ -48,7 +54,7 @@ npm i -D @types/react-dom prettier eslint eslint-config-universe @typescript-esl
 }
 ```
 
-5. Create a `.eslintrc.js` file
+6. Create a `.eslintrc.js` file
 
 ```js
 module.exports = {
@@ -69,7 +75,7 @@ module.exports = {
 };
 ```
 
-6. Modify `tsconfig.json` file to look like this
+7. Modify `tsconfig.json` file to look like this
 
 ```json
 {
@@ -98,7 +104,7 @@ module.exports = {
 }
 ```
 
-7. Start the project
+8. Start the project
 
 ```bash
 npm start
