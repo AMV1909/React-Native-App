@@ -7,13 +7,12 @@ This project is a example of how to use [Expo](https://expo.io/) to create a Rea
 ### Prerequisites
 
 -   [Node.js](https://nodejs.org/en/)
+-   [Expo Go](https://expo.io/tools#client) (Android or iOS)
 -   [Expo CLI](https://docs.expo.io/versions/latest/workflow/expo-cli/)
 
 ```bash
 npm install -g @expo/cli
 ```
-
--   [Expo Go](https://expo.io/tools#client) (Android or iOS)
 
 ### Steps
 
