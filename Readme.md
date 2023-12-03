@@ -35,7 +35,7 @@ npx create-expo-app@latest my-app --template
 3. Install dependencies
 
 ```bash
-npm i react-dom react-native-web@~0.19.6 @expo/webpack-config@^19.0.0
+npm i react-dom react-native-web @expo/webpack-config
 npm i -D @types/react-dom prettier eslint eslint-config-universe @typescript-eslint/eslint-plugin @typescript-eslint/parser
 ```
 
